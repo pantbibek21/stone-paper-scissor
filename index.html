@@ -16,17 +16,19 @@
         <div class="wrapper">
             <div class="userBox">
                 <div class="imgWrapper">
-                    <div class="stoneImg imageBox">
+                    <div class="stoneImg imageBox" onclick="winnerOrLoser('stone')">
                         <img src="images/stone.jpg" alt="Stone picture">
                     </div>
-                    <div class="paperImg imageBox">
+                    <div class="paperImg imageBox" value="paper" onclick="winnerOrLoser('paper')" >
                         <img src="images/paper.jpg" alt="paper picture">
                     </div>
-                    <div class="scissorImg imageBox">
+                    <div class="scissorImg imageBox" onclick="winnerOrLoser('scissor')">
                         <img src="images/scissor.jpg" alt="scissor picture">
                     </div>
                 </div>
-                <div class="userPick">UserPick</div>
+                <div class="userPick">
+                    <img id="userCard" alt="paper">
+                </div>
             </div>
 
             <div class="computerBox">
@@ -34,10 +36,11 @@
                <h2>Computer Pick !</h2>
                </div> 
                 <div class="computerPick">
-                    computer pick
+                    <img id="computerCard" alt="paper">
                 </div>
             </div>
         </div>
+        <div id="resultBox">hello</div>
     </main>
 </body>
 
