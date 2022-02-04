@@ -51,11 +51,15 @@ function winnerOrLoser(para)
         }
     }
 
+    //displaying the hidden cards
+    userCard.style.display = "block";
+    console.log(userCard);
+    computerCard.style.display = "block";
+
 }
 
 function randomItem(){
     let x = Math.floor((Math.random() * 3));
     computerCard.setAttribute("src", `${items[x]}`);
-    console.log(computerCard);
     return computerItems[x];
 }
