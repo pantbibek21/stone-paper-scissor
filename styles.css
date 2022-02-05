@@ -15,7 +15,8 @@ body {
 }
 main {
     background-color: rgba(40, 169, 233, 0.541);
-    
+    box-shadow: 0px 0px 2px 4px cyan;
+    border-radius: 10px;
 }
 main > h2,p {
     text-align: center;
