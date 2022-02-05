@@ -12,6 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/black.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main {
     background-color: rgba(40, 169, 233, 0.541);
