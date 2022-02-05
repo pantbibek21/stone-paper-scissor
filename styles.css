@@ -20,6 +20,12 @@ main {
 }
 main > h2,p {
     text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color:rgba(1, 2, 14, 0.74);
+}
+main > p {
+    opacity: 0.6;
 }
 .wrapper {
     width: 70vw;
@@ -129,7 +135,7 @@ main > h2,p {
     font-size: 24px;
     font-family: cursive;
     font-weight: bolder;
-    color: cadetblue;
+    color: rgb(2, 2, 22);
 }
 
 #userCard, #computerCard{
