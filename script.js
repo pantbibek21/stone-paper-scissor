@@ -12,42 +12,42 @@ function winnerOrLoser(para)
         userCard.setAttribute("src", `${items[0]}`);
         if(computerPick=="stone")
         {
-            result.innerText = " Draw !";
+            result.innerText = " Draw 😵 !";
         }
         else if(computerPick=="paper")
         {
-            result.innerText = " You lost !";
+            result.innerText = " You lost 🥶 !";
         }
         else{
-            result.innerText = " You won !";
+            result.innerText = " You won 😀 !";
         }
     }
     else if(para=="paper"){
         userCard.setAttribute("src", `${items[1]}`);
         if(computerPick=="stone")
         {
-            result.innerText = " You won !";
+            result.innerText = " You won 😀 !";
         }
         else if(computerPick=="paper")
         {
-            result.innerText = " Draw !";
+            result.innerText = " Draw 😵 !";
         }
         else{
-            result.innerText = " You lost !";
+            result.innerText = " You lost 🥶 !";
         }
     }
     else{
         userCard.setAttribute("src", `${items[2]}`);
         if(computerPick=="stone")
         {
-            result.innerText = " You lost !";
+            result.innerText = " You lost 🥶 !";
         }
         else if(computerPick=="paper")
         {
-            result.innerText = " You won !";
+            result.innerText = " You won 😀 !";
         }
         else{
-            result.innerText = " Draw !";
+            result.innerText = " Draw 😵 !";
         }
     }
 
